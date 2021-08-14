@@ -1,0 +1,100 @@
+.game-container {
+    background-image: url(./assets/images/bgGame.png);
+    height: 100vh;
+    font-family: 'gameOanTuTi';
+    background-position: center;
+    background-size: cover;
+}
+
+.tilte {
+    color: coral;
+}
+
+@font-face {
+    font-family: 'gameOanTuTi';
+    src: url(./assets/font/Pony.ttf);
+}
+
+.player{
+    margin-top: 100px;
+}
+
+.iron {
+    height: 300px;
+    margin-top: 50px;
+}
+.result {
+    position: relative;
+	background: #ffffff;
+	border-radius: .4em;
+    border: 5px solid #45D994;
+    width: 150px;
+	height: 150px;
+    left: 40%;
+}
+
+.result:after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	width: 0;
+	height: 0;
+	border: 35px solid transparent;
+	border-top-color: #45D994;
+	border-bottom: 0;
+	border-left: 0;
+	margin-left: -17.5px;
+	margin-bottom: -35px;
+}
+
+.thanos {
+    height: 300px;
+    margin-top: 50px;
+}
+
+.keo {
+    margin-left: 0;
+    border: 2px solid rgb(241, 241, 241);
+    background-color: white;
+    width: 60px;
+    height: 50px;
+    margin-right: 60px;
+    cursor: pointer;
+}
+
+.keo:hover {
+    border: 3px solid rgb(243, 117, 0);
+}
+
+
+.bao {
+    margin-left: 0;
+    border: 2px, solid rgb(241, 241, 241);
+    background-color: white;
+    width: 60px;
+    height: 50px;
+    margin-left: 60px;
+    cursor: pointer;
+}
+
+.bao:hover {
+    border: 3px solid rgb(243, 117, 0);
+}
+
+.bua {
+    margin-left: 0;
+    border: 2px, solid rgb(241, 241, 241);
+    background-color: white;
+    width: 60px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.bua:hover {
+    border: 3px solid rgb(243, 117, 0);
+}
+
+/* .selectKeoBuaBao {
+    border: 3px solid #FFA400;
+} */
